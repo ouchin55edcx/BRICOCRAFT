@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>BricoCraft</title>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+        *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      padding: 0px;
+      margin: 0;
+    }
+
+    body {
+      font-family: "Quicksand", sans-serif;
+      display: grid;
+
+      height: 100px;
+      background: #7f7fd5;
+      background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+    }
+
+    .service-card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1500px;
+      margin-block:30px;
+      gap: 70px;
+    }
+
+    .service-image {
+      max-width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    .service-card {
+      display: flex;
+      flex-direction: column;
+      width: clamp(20rem, calc(20rem + 2vw), 22rem);
+      overflow: hidden;
+      box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+      border-radius: 1em;
+      background: #ECE9E6;
+      background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    }
+
+    .service-card-content {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+    }
+
+    .service-tag {
+      align-self: flex-start;
+      padding: .25em .75em;
+      border-radius: 1em;
+      font-size: .75rem;
+    }
+
+    .service-tag + .service-tag {
+      margin-left: .5em;
+    }
+
+    .service-tag-blue {
+      background: #56CCF2;
+      background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+      color: #fafafa;
+    }
+
+    .service-tag-brown {
+      background: #D1913C;
+      background: linear-gradient(to bottom, #FFD194, #D1913C);
+      color: #fafafa;
+    }
+
+    .service-tag-red {
+      background: #cb2d3e;
+      background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+      color: #fafafa;
+    }
+
+    .service-card-content h4 {
+      font-size: 1.5rem;
+      text-transform: capitalize;
+    }
+
+    .service-card-footer {
+      display: flex;
+      padding: 1rem;
+      margin-top: auto;
+    }
+
+    .service-user {
+      display: flex;
+      gap: .5rem;
+    }
+
+    .service-user-image {
+      border-radius: 50%;
+    }
+
+    .service-user-info > small {
+      /* Add any specific styling for user info if needed */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hero_area">
+    <header class="header_section">
+      <div class="header_bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="index.html">
+              <span>
+                <img src="images/icon.webp" alt="Icon" class="icon">
+                BricoCraft
+              </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""> </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                <li><a class="button-nav nav-link" href="contact.html">Contact Us</a></li>
+                <!-- heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeer-->
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+
+    <body>
+      <div class="service-card-container">
+        <div class="service-card">
+          <div>
+            <img src="images\service_item_3.png" alt="Service Image" class="service-image">
+          </div>
+          <div class="service-card-content">
+            <h4>Appliance Repair and Installation:</h4>
+            <p>Offer repair and installation services for household appliances such as refrigerators, ovens, washing
+              machines, air conditioners, and more. Help customers with repairs, replacements, and proper installations to
+              ensure their appliances function efficiently.</p>
+          </div>
+          <div class="service-card-footer">
+       
+          </div>
+        </div>
+    
+        <div class="service-card">
+          <div>
+            <img src="\images\repair-man-1024x683.jpg" alt="Service Image" class="service-image">
+          </div>
+          <div class="service-card-content">
+            <h4>Heating, Ventilation, and Air Conditioning (HVAC):</h4>
+            <p>Deliver HVAC services, including maintenance, repairs, and installations of heating and cooling systems. This
+              may involve servicing furnaces, air conditioners, ductwork, thermostats, and ensuring proper ventilation.</p>
+          </div>
+          <div class="service-card-footer">
+
+          </div>
+        </div>
+    
+        <div class="service-card">
+          <div>
+            <img src="images\Design-ohne-Titel-41.jpg" alt="Service Image" class="service-image">
+          </div>
+          <div class="service-card-content">
+            <h4>Carpentry and Woodworking:</h4>
+            <p>Extend services related to carpentry and woodworking, including custom carpentry, furniture repair,
+              cabinetry, framing, and other woodworking projects. Assist customers in achieving their desired wooden
+              structures and furniture for their homes.</p>
+          </div>
+          <div class="service-card-footer">
+          </div>
+        </div>
+      </div>
+
+
+</body>
